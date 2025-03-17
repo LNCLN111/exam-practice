@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #eaf6ff; /* Light gray background */
+}
+.navbar {
+    background-color: #86bfe6;
+    color: rgb(208, 232, 248);
+}
+.navbar-brand, .nav-link {
+    color: rgb(61, 68, 138) !important;
+}
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centered-container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #dcebfc;
+    border: 1px solid #6094b3;
+    padding: 20px;
+    border-radius: 25px;
+}
